@@ -8,7 +8,7 @@ import './styles/global.css';
 
 export default function App() {
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
       <ScrollToTop />
       <div className="app-container">
         <a href="#maincontent" className="skip-link">Skip to main content</a>
